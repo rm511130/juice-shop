@@ -13,7 +13,7 @@ library.add(faKey, faEye, faEyeSlash, faGoogle)
 dom.watch()
 
 const oauthProviderUrl = 'https://accounts.google.com/o/oauth2/v2/auth'
-const clientId = '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+const clientId = '426740200742-r6qek708mkkkhshahvtop183hhncjfri.apps.googleusercontent.com'
 
 const authorizedRedirectURIs = {
   'http://demo.owasp-juice.shop': 'http://demo.owasp-juice.shop',
@@ -28,7 +28,29 @@ const authorizedRedirectURIs = {
   'http://127.0.0.1:4200': 'http://local4200.owasp-juice.shop',
   'http://192.168.99.100:3000': 'http://localMac.owasp-juice.shop',
   'https://juice-shop-v8.herokuapp.com': 'https://juice-shop-v8.herokuapp.com',
-  'http://juice-shop-v8.herokuapp.com': 'http://juice-shop-v8.herokuapp.com'
+  'http://juice-shop-v8.herokuapp.com': 'http://juice-shop-v8.herokuapp.com',
+  'https://juice-shop.pcfbeta.io': 'https://juice-shop.pcfbeta.io',
+  'http://juice-shop.pcfbeta.io': 'http://juice-shop.pcfbeta.io',
+  'https://juice-shop-0.pcfbeta.io': 'https://juice-shop-0.pcfbeta.io',
+  'http://juice-shop-0.pcfbeta.io': 'http://juice-shop-0.pcfbeta.io',
+  'https://juice-shop-1.pcfbeta.io': 'https://juice-shop-1.pcfbeta.io',
+  'http://juice-shop-1.pcfbeta.io': 'http://juice-shop-1.pcfbeta.io',
+  'https://juice-shop-2.pcfbeta.io': 'https://juice-shop-2.pcfbeta.io',
+  'http://juice-shop-2.pcfbeta.io': 'http://juice-shop-2.pcfbeta.io',
+  'https://juice-shop-3.pcfbeta.io': 'https://juice-shop-3.pcfbeta.io',
+  'http://juice-shop-3.pcfbeta.io': 'http://juice-shop-3.pcfbeta.io',
+  'https://juice-shop-4.pcfbeta.io': 'https://juice-shop-4.pcfbeta.io',
+  'http://juice-shop-4.pcfbeta.io': 'http://juice-shop-4.pcfbeta.io',
+  'https://juice-shop-5.pcfbeta.io': 'https://juice-shop-5.pcfbeta.io',
+  'http://juice-shop-5.pcfbeta.io': 'http://juice-shop-5.pcfbeta.io',
+  'https://juice-shop-6.pcfbeta.io': 'https://juice-shop-6.pcfbeta.io',
+  'http://juice-shop-6.pcfbeta.io': 'http://juice-shop-6.pcfbeta.io',
+  'https://juice-shop-7.pcfbeta.io': 'https://juice-shop-7.pcfbeta.io',
+  'http://juice-shop-7.pcfbeta.io': 'http://juice-shop-7.pcfbeta.io',
+  'https://juice-shop-8.pcfbeta.io': 'https://juice-shop-8.pcfbeta.io',
+  'http://juice-shop-8.pcfbeta.io': 'http://juice-shop-8.pcfbeta.io',
+  'https://juice-shop-9.pcfbeta.io': 'https://juice-shop-9.pcfbeta.io',
+  'http://juice-shop-9.pcfbeta.io': 'http://juice-shop-9.pcfbeta.io'
 }
 
 @Component({
