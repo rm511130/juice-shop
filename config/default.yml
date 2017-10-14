@@ -2,52 +2,52 @@ server:
   port: 3000
 application:
   domain: "juice-sh.op"
-  name: "OWASP Juice Shop"
+  name: "Pivotal Shop"
   logo: "JuiceShop_Logo.png"
   favicon: "favicon_v2.ico"
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
-  showCtfFlagsInNotifications: false
+  showCtfFlagsInNotifications: true
   showGitHubRibbon: true
   showChallengeHints: true
   showVersionNumber: true
-  theme: "slate" # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
+  theme: "cerulean" # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
   twitterUrl: "https://twitter.com/owasp_juiceshop"
   facebookUrl: "https://www.facebook.com/owasp.juiceshop"
   recyclePage:
     topProductImage: "fruit_press.jpg"
     bottomProductImage: "apple_pressings.jpg"
 products:
-  - name: "Apple Juice (1000ml)"
+  - name: "Agile Development"
     price: 1.99
     description: "The all-time classic."
-    image: "apple_juice.jpg"
+    image: "https://www.blueprintsys.com/wp-content/uploads/agile-development.png"
     reviews:
       - text: 'One of my favorites!'
         author: 'admin' # Options: admin, jim, bender, ciso, support
-  - name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
+  - name: 'Enablement'
+    description: 'Giving you the power to go do it on your own.'
     price: 2.99
-    image: 'orange_juice.jpg'
-  - name: 'Eggfruit Juice (500ml)'
-    description: 'Now with even more exotic flavour.'
+    image: 'https://www.ringdna.com/wp-content/uploads/2016/09/enablement.jpeg'
+  - name: 'PCF'
+    description: 'Now just a button click away'
     price: 8.99
-    image: 'eggfruit_juice.jpg'
+    image: 'http://www.cbronline.com/wp-content/uploads/2017/07/Pivotal-Cloud-Foundry.png'
     reviews:
       - text: 'I bought it, would buy again. 5/7'
         author: 'admin'
-  - name: 'Raspberry Juice (1000ml)'
-    description: 'Made from blended Raspberry Pi, water and sugar.'
+  - name: 'Greenplum'
+    description: 'Made from blended green plums, water and sugar.'
     price: 4.99
-    image: 'raspberry_juice.jpg'
-  - name: 'Lemon Juice (500ml)'
-    description: 'Sour but full of vitamins.'
+    image: 'https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_gpdb@2x.png'
+  - name: 'Command Center'
+    description: 'Captain chair of the enterprise'
     price: 2.99
     image: 'lemon_juice.jpg'
-  - name: 'Banana Juice (1000ml)'
-    description: 'Monkeys love it the most.'
+  - name: 'Strong opinion, loosely held'
+    description: 'Finally, someone willing to have opinion, but be changed by facts'
     price: 1.99
-    image: 'banana_juice.jpg'
+    image: 'https://is3-ssl.mzstatic.com/image/thumb/Music71/v4/07/04/42/070442b1-599e-cd59-a7ff-e37c83ade84e/source/1200x630bb.jpg'
     reviews:
       - text: 'Fry liked it too.'
         author: 'bender'
@@ -142,14 +142,14 @@ products:
     description: 'The wheels of this bicycle are made from real water melons.'
     price: 1999
     image: 'melon_bike.jpeg'
-  - name: 'Strawberry Juice (500ml)'
-    description: 'Sweet & tasty!'
+  - name: 'Balanced Team'
+    description: 'Delivering great products in unified fashion'
     price: 3.99
-    image: 'strawberry_juice.jpeg'
-  - name: 'Carrot Juice (1000ml)'
-    description: 'As the old German saying goes: "Carrots are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
+    image: 'http://www.arra-pm.com/wp-content/uploads/2013/08/iStock_000015298884Small-Team-balance.jpg'
+  - name: 'Pairing Station'
+    description: 'All context is always shared, no silos here'
     price: 2.99
-    image: 'carrot_juice.jpeg'
+    image: 'https://camo.githubusercontent.com/ca2fb9d92d33e98202b9cd41fc9680898e4def0d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f662e636c2e6c792f6974656d732f3147316f3239326c3272334430463236335131412f70616972696e675f73746174696f6e2e706e67'
   - name: 'Jawa Script T-Shirt'
     description: 'Brilliant. Just brilliant. You can actually purchase it for real <a href="https://www.teepublic.com/t-shirt/1252931-jawa-script" target="_blank">over here</a>.'
     price: 20

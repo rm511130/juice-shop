@@ -41,7 +41,7 @@ angular.module('juiceShop').controller('LoginController', [
     }
 
     var oauthProviderUrl = 'https://accounts.google.com/o/oauth2/v2/auth'
-    var clientId = '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+    var clientId = '426740200742-r6qek708mkkkhshahvtop183hhncjfri.apps.googleusercontent.com'
 
     var authorizedRedirectURIs = {
       'http://demo.owasp-juice.shop': 'http://demo.owasp-juice.shop',
@@ -52,7 +52,29 @@ angular.module('juiceShop').controller('LoginController', [
       'http://juice-shop-staging.herokuapp.com': 'http://juice-shop-staging.herokuapp.com',
       'http://localhost:3000': 'http://localhost:3000',
       'http://juice.sh': 'http://juice.sh',
-      'http://192.168.99.100:3000': 'http://tinyurl.com/ipMacLocalhost'
+      'http://192.168.99.100:3000': 'http://tinyurl.com/ipMacLocalhost',
+      'https://juice-shop.pcfbeta.io': 'https://juice-shop.pcfbeta.io',
+      'http://juice-shop.pcfbeta.io': 'http://juice-shop.pcfbeta.io',
+      'https://juice-shop-0.pcfbeta.io': 'https://juice-shop-0.pcfbeta.io',
+      'http://juice-shop-0.pcfbeta.io': 'http://juice-shop-0.pcfbeta.io',
+      'https://juice-shop-1.pcfbeta.io': 'https://juice-shop-1.pcfbeta.io',
+      'http://juice-shop-1.pcfbeta.io': 'http://juice-shop-1.pcfbeta.io',
+      'https://juice-shop-2.pcfbeta.io': 'https://juice-shop-2.pcfbeta.io',
+      'http://juice-shop-2.pcfbeta.io': 'http://juice-shop-2.pcfbeta.io',
+      'https://juice-shop-3.pcfbeta.io': 'https://juice-shop-3.pcfbeta.io',
+      'http://juice-shop-3.pcfbeta.io': 'http://juice-shop-3.pcfbeta.io',
+      'https://juice-shop-4.pcfbeta.io': 'https://juice-shop-4.pcfbeta.io',
+      'http://juice-shop-4.pcfbeta.io': 'http://juice-shop-4.pcfbeta.io',
+      'https://juice-shop-5.pcfbeta.io': 'https://juice-shop-5.pcfbeta.io',
+      'http://juice-shop-5.pcfbeta.io': 'http://juice-shop-5.pcfbeta.io',
+      'https://juice-shop-6.pcfbeta.io': 'https://juice-shop-6.pcfbeta.io',
+      'http://juice-shop-6.pcfbeta.io': 'http://juice-shop-6.pcfbeta.io',
+      'https://juice-shop-7.pcfbeta.io': 'https://juice-shop-7.pcfbeta.io',
+      'http://juice-shop-7.pcfbeta.io': 'http://juice-shop-7.pcfbeta.io',
+      'https://juice-shop-8.pcfbeta.io': 'https://juice-shop-8.pcfbeta.io',
+      'http://juice-shop-8.pcfbeta.io': 'http://juice-shop-8.pcfbeta.io',
+      'https://juice-shop-9.pcfbeta.io': 'https://juice-shop-9.pcfbeta.io',
+      'http://juice-shop-9.pcfbeta.io': 'http://juice-shop-9.pcfbeta.io'
     }
     var redirectUri = $location.protocol() + '://' + location.host
     $scope.oauthUnavailable = !authorizedRedirectURIs[redirectUri]
