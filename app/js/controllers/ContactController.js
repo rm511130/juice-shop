@@ -9,6 +9,8 @@ angular.module('juiceShop').controller('ContactController', [
       $scope.feedback = {}
       $scope.feedback.UserId = data.id
       $scope.userEmail = data.email || 'anonymous'
+    }).catch(function () {
+      $scope.feedback = undefined
     })
 
     $scope.save = function () {

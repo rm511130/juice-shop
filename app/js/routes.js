@@ -1,6 +1,8 @@
 angular.module('juiceShop').config(['$routeProvider', function ($routeProvider) {
   'use strict'
 
+  $routeProvider.eagerInstantiationEnabled(false)
+
   $routeProvider.when('/administration', {
     templateUrl: 'views/Administration.html',
     controller: 'AdministrationController'

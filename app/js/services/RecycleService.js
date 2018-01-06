@@ -5,20 +5,20 @@ angular.module('juiceShop').factory('RecycleService', ['$http', '$q', function (
 
   function find (params) {
     var recycles = $q.defer()
-    $http.get(host + '/', {params: params}).success(function (data) {
-      recycles.resolve(data.data)
-    }).error(function (err) {
-      recycles.reject(err)
+    $http.get(host + '/', {params: params}).then(function (response) {
+      recycles.resolve(response.data.data)
+    }, function (response) {
+      recycles.reject(response.data)
     })
     return recycles.promise
   }
 
   function save (params) {
     var createdRecycle = $q.defer()
-    $http.post(host + '/', params).success(function (data) {
-      createdRecycle.resolve(data.data)
-    }).error(function (err) {
-      createdRecycle.reject(err)
+    $http.post(host + '/', params).then(function (response) {
+      createdRecycle.resolve(response.data.data)
+    }, function (response) {
+      createdRecycle.reject(response.data)
     })
     return createdRecycle.promise
   }

@@ -24,7 +24,7 @@ angular.module('juiceShop').controller('ChallengeController', [
 
     $scope.repeatNotification = function (challenge) {
       if ($scope.allowRepeatNotifications) {
-        challengeService.repeatNotification(encodeURIComponent(challenge.name)).success(function () {
+        challengeService.repeatNotification(encodeURIComponent(challenge.name)).then(function () {
           $window.scrollTo(0, 0)
         })
       }

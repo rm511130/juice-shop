@@ -11,6 +11,8 @@ angular.module('juiceShop').controller('ForgotPasswordController', [
       if ($scope.email) {
         securityQuestionService.findBy($scope.email).then(function (securityQuestion) {
           $scope.securityQuestion = securityQuestion.question
+        }).catch(function () {
+          $scope.securityQuestion = undefined
         })
       }
     }
