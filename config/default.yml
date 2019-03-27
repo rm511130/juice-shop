@@ -44,7 +44,7 @@ products:
     name: 'Agile Development'
     price: 1.99
     description: 'The all-time classic.'
-    image: https://www.blueprintsys.com/wp-content/uploads/agile-development.png
+    image: https://cdn-images-1.medium.com/max/1200/1*vdSIa2rFEAZS1YUsgOZR0A.jpeg
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
