@@ -158,7 +158,7 @@
     "package": "grunt package"
   },
   "engines": {
-    "node": "10.5.0"
+    "node": "10.15.3"
   },
   "standard": {
     "ignore": [
